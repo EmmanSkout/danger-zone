@@ -12,6 +12,11 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping
+    public String detailsPage(Model model){
+        return "trip-details";
+    }
+
 
 
 }
