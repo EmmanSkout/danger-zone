@@ -2,7 +2,7 @@
     <div class="mx-auto flex items-center justify-between">
         <!-- Logo and Icon -->
         <div class="flex items-center space-x-3">
-            <img src="danger-icon.svg" width="22" height="22" alt="Danger Zone Icon">
+            <img src="/danger-icon.svg" width="22" height="22" alt="Danger Zone Icon">
             <span class="text-3xl font-bold text-white">Danger Zone - Extreme Trips</span>
         </div>
 
