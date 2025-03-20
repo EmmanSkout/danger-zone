@@ -9,25 +9,25 @@
     "title": "Desert Safari",
     "description": "Experience the vastness of the desert.",
     "dangerScore": 6,
-    "image": "desert_safari.jpg"
+    "image": "https://plus.unsplash.com/premium_photo-1661962542692-4fe7a4ad6b54?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "title": "Jungle Expedition",
     "description": "Explore the dense jungle and its wildlife.",
     "dangerScore": 9,
-    "image": "jungle_expedition.jpg"
+    "image": "https://en.pimg.jp/114/535/457/1/114535457.jpg"
   },
   {
     "title": "City Tour",
     "description": "Discover the hidden gems of the city.",
     "dangerScore": 2,
-    "image": "city_tour.jpg"
+    "image": "https://cdn.pixabay.com/photo/2021/07/26/07/32/travel-6493621_1280.jpg"
   },
   {
     "title": "River Rafting",
     "description": "An exhilarating river rafting experience.",
     "dangerScore": 7,
-    "image": "river_rafting.jpg"
+    "image": "https://t4.ftcdn.net/jpg/04/79/19/09/360_F_479190950_ehyNejlVKUUivATwpT4ZifgWIpUE9FAT.jpg"
   },
   {
     "title": "Skydiving",
