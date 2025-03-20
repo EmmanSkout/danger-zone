@@ -14,7 +14,7 @@ import java.util.List;
 public class TripsService {
 
 
-    public List<Trip> loadTripsFromJson() {
+    public List<Trip> getTrips() {
         ObjectMapper objectMapper = new ObjectMapper();
         try (InputStream inputStream = new ClassPathResource("trips.json").getInputStream()) {
             return objectMapper.readValue(inputStream, new TypeReference<List<Trip>>() {
