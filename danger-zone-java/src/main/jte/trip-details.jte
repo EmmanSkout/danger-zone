@@ -4,7 +4,7 @@
 @param Trip trip
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,8 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>${trip.getTitle()}</title>
 </head>
-<body>
-<div class="bg-black">
+<body class="h-full">
+<div class="bg-black h-full">
 
     @template.navigation()
 
@@ -27,7 +27,7 @@
 
                 <!-- Clickable Image -->
                 <img id="tripImage" src="${trip.getImage()}" alt="Trip Image"
-                     class="w-full h-48 object-cover rounded-md mt-2 cursor-pointer">
+                     class="size-50/100 object-cover rounded-md mt-2 cursor-pointer">
 
                 <!-- Description -->
                 <p class="text-gray-600 mt-2">${trip.getDescription()}</p>
