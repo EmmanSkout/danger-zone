@@ -17,7 +17,8 @@
 <div class="m-3">
 
     <div class="flex flex-wrap pb-3">
-        <img class="mr-3" src="danger-icon.svg" width="22" height="22" alt="Example Image">
+        <img class="mr-3" src="/danger-icon.svg" width="22" height="22" alt="Example Image">
+        <?xml version="1.0" encoding="utf-8"?>
         <span class="text-3xl font-bold">Danger Zone App</span>
     </div>
 
