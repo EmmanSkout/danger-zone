@@ -24,6 +24,10 @@ public class MainController {
         return "trip-details";
     }
 
-
+    @GetMapping("/trips")
+    public String tripsPage(Model model) {
+        model.addAttribute("trips", tripsService.getTrips());
+        return "trips-page";
+    }
 
 }

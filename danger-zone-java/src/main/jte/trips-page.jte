@@ -21,9 +21,8 @@
             <span class="text-3xl font-bold">Danger Zone App</span>
         </div>
 
-        <!-- Navigation Bar -->
         @template.navigation()
-
+        
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 @for(Trip trip : trips)
