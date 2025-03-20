@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Mountain Adventure",
+    "description": "A thrilling adventure in the mountains.",
+    "dangerScore": 8,
+    "image": "mountain_adventure.jpg"
+  },
+  {
+    "title": "Desert Safari",
+    "description": "Experience the vastness of the desert.",
+    "dangerScore": 6,
+    "image": "desert_safari.jpg"
+  },
+  {
+    "title": "Jungle Expedition",
+    "description": "Explore the dense jungle and its wildlife.",
+    "dangerScore": 9,
+    "image": "jungle_expedition.jpg"
+  },
+  {
+    "title": "City Tour",
+    "description": "Discover the hidden gems of the city.",
+    "dangerScore": 2,
+    "image": "city_tour.jpg"
+  },
+  {
+    "title": "River Rafting",
+    "description": "An exhilarating river rafting experience.",
+    "dangerScore": 7,
+    "image": "river_rafting.jpg"
+  },
+  {
+    "title": "Skydiving",
+    "description": "Feel the adrenaline rush with skydiving.",
+    "dangerScore": 10,
+    "image": "skydiving.jpg"
+  },
+  {
+    "title": "Beach Relaxation",
+    "description": "Relax and unwind on the beautiful beach.",
+    "dangerScore": 1,
+    "image": "beach_relaxation.jpg"
+  },
+  {
+    "title": "Snowboarding",
+    "description": "Hit the slopes for an exciting snowboarding trip.",
+    "dangerScore": 7,
+    "image": "snowboarding.jpg"
+  },
+  {
+    "title": "Cave Exploration",
+    "description": "Discover the mysteries of underground caves.",
+    "dangerScore": 8,
+    "image": "cave_exploration.jpg"
+  },
+  {
+    "title": "Safari Adventure",
+    "description": "Get up close with wildlife on a safari.",
+    "dangerScore": 5,
+    "image": "safari_adventure.jpg"
+  }
+]
