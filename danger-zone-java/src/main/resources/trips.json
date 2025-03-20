@@ -1,62 +1,69 @@
 [
   {
-    "title": "Mountain Adventure",
-    "description": "A thrilling adventure in the mountains.",
-    "dangerScore": 8,
-    "image": "https://www.muchbetteradventures.com/magazine/content/images/2024/02/how-to-prepare-for-a-mountain-climbing-adventure.jpg"
-  },
-  {
-    "title": "Desert Safari",
-    "description": "Experience the vastness of the desert.",
-    "dangerScore": 6,
-    "image": "https://plus.unsplash.com/premium_photo-1661962542692-4fe7a4ad6b54?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  {
-    "title": "Jungle Expedition",
-    "description": "Explore the dense jungle and its wildlife.",
+    "title": "Volcanic Summit Trek",
+    "description": "A daring expedition to an active volcano, where the ground trembles beneath your feet, and molten lava flows nearby. Survive the intense heat and navigate through treacherous terrain while witnessing nature’s raw power up close.",
     "dangerScore": 9,
-    "image": "https://en.pimg.jp/114/535/457/1/114535457.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3TLMxTgeC5e3vw96AlaVbtpvYlsOK-594yTrQgBl14LmSmqY7ntXttOdrVmNKaZECtkA&usqp=CAU"
   },
   {
-    "title": "City Tour",
-    "description": "Discover the hidden gems of the city.",
-    "dangerScore": 2,
-    "image": "https://cdn.pixabay.com/photo/2021/07/26/07/32/travel-6493621_1280.jpg"
-  },
-  {
-    "title": "River Rafting",
-    "description": "An exhilarating river rafting experience.",
-    "dangerScore": 7,
-    "image": "https://t4.ftcdn.net/jpg/04/79/19/09/360_F_479190950_ehyNejlVKUUivATwpT4ZifgWIpUE9FAT.jpg"
-  },
-  {
-    "title": "Skydiving",
-    "description": "Feel the adrenaline rush with skydiving.",
+    "title": "Deep-Sea Abyss Dive",
+    "description": "Descend into the uncharted depths of the ocean, where crushing pressure, absolute darkness, and unknown creatures await. Only the bravest explorers dare to enter the abyss, where the line between discovery and disaster is razor-thin.",
     "dangerScore": 10,
-    "image": "skydiving.jpg"
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/armand_cabrera_cabrera_in_sunken_rlyeh_dex_cthulhu_lies_dreaming_18x24_oil_web.png"
   },
   {
-    "title": "Beach Relaxation",
-    "description": "Relax and unwind on the beautiful beach.",
-    "dangerScore": 1,
-    "image": "beach_relaxation.jpg"
-  },
-  {
-    "title": "Snowboarding",
-    "description": "Hit the slopes for an exciting snowboarding trip.",
+    "title": "Ghost Town Survival",
+    "description": "Spend a week in an abandoned ghost town, where nature has reclaimed the ruins, and eerie shadows whisper untold stories. With limited supplies and no outside help, can you endure the isolation and supernatural mysteries lurking in the darkness?",
     "dangerScore": 7,
-    "image": "snowboarding.jpg"
+    "image": "https://media.istockphoto.com/id/690396866/photo/scary-old-gas-station-at-night.jpg?s=612x612&w=0&k=20&c=aKe29K0q5tI_ZUiQyZCey3rhoY90HN6pMQf3eFixaMU="
   },
   {
-    "title": "Cave Exploration",
-    "description": "Discover the mysteries of underground caves.",
+    "title": "Tornado Chasing Expedition",
+    "description": "Join a team of storm chasers as they pursue tornadoes across the open plains. With winds exceeding 300 km/h, flying debris, and unpredictable weather patterns, this adventure is as exhilarating as it is perilous.",
+    "dangerScore": 9,
+    "image": "https://th-thumbnailer.cdn-si-edu.com/ThgemJUgff6g2gUGzAV8ed_dSSE=/fit-in/1600x0/filters:focal(356x268:357x269)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/61/46/614662b8-58e2-4370-ba64-ec2adb528301/photo-tornado-traer-iowa-by-brad-goddard-orion-illinois-07062016-1120x534-landscape_web.jpg"
+  },
+  {
+    "title": "Arctic Ice Cavern Traverse",
+    "description": "Navigate through an intricate labyrinth of ice caverns beneath the Arctic. Beware of collapsing tunnels, thin ice, and the bone-chilling cold that can freeze you within minutes. A breathtaking yet deadly adventure in a frozen world.",
     "dangerScore": 8,
-    "image": "cave_exploration.jpg"
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/33e6ba6a-4513-4514-97a7-0c2bee30fe75/dep3u8e-9919c92e-3138-48ff-a41f-01cd1bd89d42.png/v1/fill/w_1280,h_823,q_80,strp/arctic_cavern_by_zacharyhunt90_dep3u8e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODIzIiwicGF0aCI6IlwvZlwvMzNlNmJhNmEtNDUxMy00NTE0LTk3YTctMGMyYmVlMzBmZTc1XC9kZXAzdThlLTk5MTljOTJlLTMxMzgtNDhmZi1hNDFmLTAxY2QxYmQ4OWQ0Mi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZvJf3l9sRWln1raTG93bAOZ9LDtZ-vlrl9QPFF1wonI"
   },
   {
-    "title": "Safari Adventure",
-    "description": "Get up close with wildlife on a safari.",
-    "dangerScore": 5,
-    "image": "safari_adventure.jpg"
+    "title": "Cursed Jungle Expedition",
+    "description": "Venture deep into an unexplored jungle rumored to be cursed. Survive venomous creatures, deadly quicksand, and mysterious ruins where explorers have vanished without a trace. The jungle keeps its secrets well—will you escape with your life?",
+    "dangerScore": 10,
+    "image": "https://f4.bcbits.com/img/a2488334913_10.jpg"
+  },
+  {
+    "title": "Edge of the World Cliff Climb",
+    "description": "Climb a remote, near-vertical cliff that stretches into the sky, with nothing but the roaring sea beneath. A single misstep means certain doom, and reaching the summit is a test of endurance, skill, and sheer willpower.",
+    "dangerScore": 9,
+    "image": "https://zamzam-blog.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/12/edge-of-the-world-riyadh-840x450.jpg"
+  },
+  {
+    "title": "Lightning Peak Ascent",
+    "description": "Conquer a towering mountain notorious for being struck by lightning hundreds of times per year. As you climb, thunder roars and bolts of electricity crackle around you, making every step a gamble between life and death.",
+    "dangerScore": 9,
+    "image": "https://oursportinglife.co.uk/wp-content/uploads/2024/04/lightning-strike-on-a-mountain.webp"
+  },
+  {
+    "title": "Radioactive Ruins Exploration",
+    "description": "Enter an abandoned city left in the wake of a nuclear disaster. High radiation levels, decayed structures, and unknown hazards make this a journey into the past—and a constant fight against time and contamination.",
+    "dangerScore": 10,
+    "image": "https://s.wsj.net/public/resources/images/B3-AK422_bkrvch_P_20180514154135.jpg"
+  },
+  {
+    "title": "Sandstorm Desert Survival",
+    "description": "Survive a week in the most extreme desert on Earth, where scorching heat, violent sandstorms, and dehydration are your greatest enemies. No GPS, no roads—just the endless dunes and your own survival instincts.",
+    "dangerScore": 8,
+    "image": "https://i.ytimg.com/vi/lYXcpYYlm8I/maxresdefault.jpg"
+  },
+  {
+    "title": "North Korean Army Camp Escape",
+    "description": "Experience the ultimate test of survival as you infiltrate a high-security North Korean military camp under the cover of darkness. Live as a soldier under extreme conditions, enduring brutal training, strict surveillance, and relentless drills. Navigate a world of secrecy, political tension, and harsh discipline. The ultimate challenge? Escape undetected before you're caught and face the consequences.",
+    "dangerScore": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Geoje-POW_Camp1.JPG"
   }
+
 ]
