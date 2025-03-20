@@ -30,7 +30,9 @@
                 <!-- Title -->
                 <h2 class="text-2xl font-bold text-gray-800">${trip.getTitle()}</h2>
 
-                <img src="${trip.getImage()}" alt="Trip Image" class="w-full h-48 object-cover rounded-md mt-2">
+                <!-- Clickable Image -->
+                <img id="tripImage" src="${trip.getImage()}" alt="Trip Image"
+                     class="w-full h-48 object-cover rounded-md mt-2 cursor-pointer">
 
                 <!-- Description -->
                 <p class="text-gray-600 mt-2">${trip.getDescription()}</p>
@@ -41,5 +43,25 @@
         </div>
     </div>
 </div>
+
+<!-- Fullscreen Overlay -->
+<div id="imageOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center hidden">
+    <img id="fullscreenImage" src="${trip.getImage()}" class="max-w-full max-h-full rounded-lg">
+</div>
+
+<script>
+    const image = document.getElementById("tripImage");
+    const overlay = document.getElementById("imageOverlay");
+    const fullscreenImage = document.getElementById("fullscreenImage");
+
+    image.addEventListener("click", () => {
+        fullscreenImage.src = image.src; // Set the full image source
+        overlay.classList.remove("hidden"); // Show overlay
+    });
+
+    overlay.addEventListener("click", () => {
+        overlay.classList.add("hidden"); // Hide overlay on any click
+    });
+</script>
 </body>
 </html>
