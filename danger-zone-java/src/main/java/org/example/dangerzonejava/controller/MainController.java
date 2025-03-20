@@ -30,4 +30,9 @@ public class MainController {
         return "trips-page";
     }
 
+    @GetMapping("/contact")
+    public String contactForm(Model model){
+        return "contact";
+    }
+
 }
