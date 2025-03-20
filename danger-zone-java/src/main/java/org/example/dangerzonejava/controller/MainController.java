@@ -13,5 +13,5 @@ public class MainController {
     }
 
 
-    public String getTrip()
+    
 }
