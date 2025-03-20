@@ -9,17 +9,12 @@
     <title>Document</title>
 </head>
 <body>
-<div class="m-3">
-
-    <div class="flex flex-wrap pb-3">
-        <img class="mr-3" src="danger-icon.svg" width="22" height="22" alt="Example Image">
-        <span class="text-3xl font-bold">Danger Zone - Extreme Trips</span>
-    </div>
+<div class="bg-black">
 
     <!-- Navigation Bar -->
     @template.navigation()
 
-    <div class="container mx-auto flex justify-center items-center min-h-screen px-4">
+    <div class="flex items-center justify-center min-h-screen">
         <div class="bg-white shadow-md rounded-lg p-4 max-w-lg w-full">
             <h2 class="text-2xl font-semibold text-center mb-4">Contact Us</h2>
             <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">

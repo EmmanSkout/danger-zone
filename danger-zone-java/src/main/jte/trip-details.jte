@@ -14,12 +14,7 @@
     <title>${trip.getTitle()}</title>
 </head>
 <body>
-<div class="m-3">
-
-    <div class="flex flex-wrap pb-3">
-        <img class="mr-3" src="danger-icon.svg" width="22" height="22" alt="Example Image">
-        <span class="text-3xl font-bold">Danger Zone App</span>
-    </div>
+<div class="bg-black">
 
     @template.navigation()
 
