@@ -15,28 +15,45 @@
 </head>
 <body>
     <div class="m-3">
+
         <div class="flex flex-wrap pb-3">
             <img class="mr-3" src="danger-icon.svg" width="22" height="22" alt="Example Image">
             <span class="text-3xl font-bold">Danger Zone App</span>
         </div>
-        @for(Trip trip : trips)
-        <div class="max-w-xs bg-white rounded-lg shadow-lg overflow-hidden">
 
-            <!-- Card Body -->
-            <div class="p-4">
-                <!-- Title -->
-                <h2 class="text-2xl font-bold text-gray-800">${trip.getTitle()}</h2>
+        <!-- Navigation Bar -->
+        <nav class="bg-red-600 p-4 mb-2">
+            <div class="mx-auto flex items-center justify-between">
+                <!-- Nav Links - Align to the left -->
+                <ul class="flex space-x-8">
+                    <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-300">Trips</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
-                <img src="${trip.getImage()}" alt="Mountain Climbing Adventure" class="w-full h-48 object-cover">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                @for(Trip trip : trips)
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <!-- Card Body -->
+                        <div class="p-4">
+                            <!-- Title -->
+                            <h2 class="text-2xl font-bold text-gray-800">${trip.getTitle()}</h2>
 
-                <!-- Description -->
-                <p class="text-gray-600 mt-2">${trip.getDescription()}</p>
+                            <img src="${trip.getImage()}" alt="Trip Image" class="w-full h-48 object-cover rounded-md mt-2">
 
-                <!-- Danger Score -->
-                <p class="mt-4 text-lg font-semibold text-red-600">Danger Score: <span class="text-green-600">${trip.getDangerScore()}</span></p>
+                            <!-- Description -->
+                            <p class="text-gray-600 mt-2">${trip.getDescription()}</p>
+
+                            <!-- Danger Score -->
+                            <p class="mt-4 text-lg font-semibold text-red-600">Danger Score: <span class="text-green-600">${trip.getDangerScore()}</span></p>
+                        </div>
+                    </div>
+                @endfor
             </div>
         </div>
-        @endfor
     </div>
 </body>
 </html>
