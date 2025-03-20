@@ -14,12 +14,7 @@
     <title>Danger Zone - Extreme Trips</title>
 </head>
 <body>
-    <div class="m-3">
-
-        <div class="flex flex-wrap pb-3">
-            <img class="mr-3" src="danger-icon.svg" width="22" height="22" alt="Example Image">
-            <span class="text-3xl font-bold">Danger Zone - Extreme Trips</span>
-        </div>
+    <div class="bg-black">
 
         <!-- Navigation Bar -->
         @template.navigation()
@@ -41,6 +36,14 @@
             </div>
         </div>
     </div>
-
 </body>
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+    }
+    .fade-in {
+        animation: fadeIn 1.5s ease-out;
+    }
+</style>
 </html>
