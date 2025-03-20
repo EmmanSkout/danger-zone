@@ -4,7 +4,7 @@
 @param Trip trip
 
 <!doctype html>
-<html lang="en" class="min-h-full">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,30 +13,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>${trip.getTitle()}</title>
 </head>
-<body class="min-h-full">
-<div class="bg-black min-h-full">
+<body class="h-full">
+<div class="bg-black h-full">
 
     @template.navigation()
 
-    <div class="container mx-auto px-4">
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+    <div class="container  px-4">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden max-w-xl mx-auto">
             <!-- Card Body -->
-            <div class="p-4">
+            <div class="p-6 flex flex-col space-y-4">
                 <!-- Title -->
-                <h2 class="text-2xl font-bold text-gray-800">${trip.getTitle()}</h2>
+                <h2 class="text-3xl font-bold text-gray-800">${trip.getTitle()}</h2>
 
                 <!-- Clickable Image -->
                 <img id="tripImage" src="${trip.getImage()}" alt="Trip Image"
-                     class="size-50/100 object-cover rounded-md mt-2 cursor-pointer">
+                     class="w-full h-90 object-cover rounded-md cursor-pointer">
 
                 <!-- Description -->
-                <p class="text-gray-600 mt-2">${trip.getDescription()}</p>
+                <p class="text-gray-600">${trip.getDescription()}</p>
 
                 <!-- Danger Score -->
-                <p class="mt-4 text-lg font-semibold text-red-600">Danger Score: <span class="text-green-600">${trip.getDangerScore()}</span></p>
+                <p class="text-lg font-semibold text-red-600">
+                    Danger Score: <span class="text-green-600">${trip.getDangerScore()}</span>
+                </p>
             </div>
         </div>
     </div>
+
 </div>
 
 <!-- Fullscreen Overlay -->
