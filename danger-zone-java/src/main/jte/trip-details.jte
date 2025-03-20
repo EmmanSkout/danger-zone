@@ -4,7 +4,7 @@
 @param Trip trip
 
 <!doctype html>
-<html lang="en" class="h-full">
+<html lang="en" class="min-h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,8 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>${trip.getTitle()}</title>
 </head>
-<body class="h-full">
-<div class="bg-black h-full">
+<body class="min-h-full">
+<div class="bg-black min-h-full">
 
     @template.navigation()
 
