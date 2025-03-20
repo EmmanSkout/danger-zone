@@ -1,62 +1,62 @@
 [
   {
-    "title": "Mountain Adventure",
-    "description": "A thrilling adventure in the mountains.",
-    "dangerScore": 8,
-    "image": "https://www.muchbetteradventures.com/magazine/content/images/2024/02/how-to-prepare-for-a-mountain-climbing-adventure.jpg"
-  },
-  {
-    "title": "Desert Safari",
-    "description": "Experience the vastness of the desert.",
-    "dangerScore": 6,
-    "image": "https://plus.unsplash.com/premium_photo-1661962542692-4fe7a4ad6b54?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  {
-    "title": "Jungle Expedition",
-    "description": "Explore the dense jungle and its wildlife.",
-    "dangerScore": 9,
-    "image": "https://en.pimg.jp/114/535/457/1/114535457.jpg"
-  },
-  {
-    "title": "City Tour",
-    "description": "Discover the hidden gems of the city.",
-    "dangerScore": 2,
-    "image": "https://cdn.pixabay.com/photo/2021/07/26/07/32/travel-6493621_1280.jpg"
-  },
-  {
-    "title": "River Rafting",
-    "description": "An exhilarating river rafting experience.",
-    "dangerScore": 7,
-    "image": "https://t4.ftcdn.net/jpg/04/79/19/09/360_F_479190950_ehyNejlVKUUivATwpT4ZifgWIpUE9FAT.jpg"
-  },
-  {
-    "title": "Skydiving",
-    "description": "Feel the adrenaline rush with skydiving.",
+    "title": "Everest Summit Expedition",
+    "description": "Climb the tallest peak on Earth, facing extreme cold, avalanches, and altitude sickness.",
     "dangerScore": 10,
-    "image": "skydiving.jpg"
+    "image": "https://images.prismic.io/elite-exped/OTU0MDNhYmItZjJiOC00ZWY0LTg2MTktZTU1ODU0ZjhlM2Y4_4fd4cc4a-6c75-4b0c-bb96-603d47f927c5_nims-everest.jpg?auto=format&rect=0,0,4804,2702&w=2400&h=1350&dpr=1.5"
   },
   {
-    "title": "Beach Relaxation",
-    "description": "Relax and unwind on the beautiful beach.",
-    "dangerScore": 1,
-    "image": "beach_relaxation.jpg"
+    "title": "Deep Sea Cave Diving",
+    "description": "Explore uncharted underwater caves where a single mistake can mean no return.",
+    "dangerScore": 10,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9iYsI5Y9xhlEWjGwlfvEoTq_DlxzK2MWSKg&s"
   },
   {
-    "title": "Snowboarding",
-    "description": "Hit the slopes for an exciting snowboarding trip.",
-    "dangerScore": 7,
-    "image": "snowboarding.jpg"
+    "title": "BASE Jumping in Wingsuit",
+    "description": "Leap off cliffs in a wingsuit, flying dangerously close to the ground at high speeds.",
+    "dangerScore": 10,
+    "image": "https://s3.amazonaws.com/www.explorersweb.com/wp-content/uploads/2018/03/24013654/f904870f-a071-4ccd-8cd0-21277234d7b2-3.jpg"
   },
   {
-    "title": "Cave Exploration",
-    "description": "Discover the mysteries of underground caves.",
+    "title": "Volcano Boarding",
+    "description": "Slide down the slopes of an active volcano on a thin board, dodging lava and sharp rocks.",
+    "dangerScore": 9,
+    "image": "https://cdn.outsideonline.com/wp-content/uploads/2015/11/11/volcano-boarding-cerro-negro_h.jpg"
+  },
+  {
+    "title": "Arctic Survival Challenge",
+    "description": "Survive alone in the Arctic with only basic supplies and extreme cold temperatures.",
+    "dangerScore": 9,
+    "image": "https://i.ytimg.com/vi/bI4omkig-TU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDQ0i9XjvpEAdwWb8Qr-U3LNQy1NQ"
+  },
+  {
+    "title": "Amazon Jungle Survival",
+    "description": "Navigate the dense Amazon jungle, avoiding deadly predators, disease, and getting lost.",
+    "dangerScore": 9,
+    "image": "https://static.planetaexo.com/trips/wp-content/uploads/2023/09/amazon-jungle-survival-tour-2-1.jpg"
+  },
+  {
+    "title": "Shark Cage Diving (No Cage)",
+    "description": "Swim with great white sharks without a cage, relying only on your instincts and luck.",
+    "dangerScore": 10,
+    "image": "https://www.mensjournal.com/.image/t_share/MTk2MTM3MDM4MzE2Nzc0OTE3/mj-618_348_no-cage-shark-diving.jpg"
+  },
+  {
+    "title": "Death Road Cycling",
+    "description": "Bike down Bolivia’s infamous Death Road, a narrow mountain pass with deadly cliffs.",
     "dangerScore": 8,
-    "image": "cave_exploration.jpg"
+    "image": "https://lh6.googleusercontent.com/proxy/X8wwha2tCpsfjSL91oVcyGrvmIVhDe1zqps6sfk8su_BU5zRiCUdkqO5NP52pufV0GaE5JhLgBbo5CU9EbjG3lYqY9pniI1FIrYQS_u_Ec-Iobi9tbqn9QZ_-arY93sM6SWiVyA0pu8"
   },
   {
-    "title": "Safari Adventure",
-    "description": "Get up close with wildlife on a safari.",
-    "dangerScore": 5,
-    "image": "safari_adventure.jpg"
+    "title": "Storm Chasing",
+    "description": "Get close to deadly tornadoes and hurricanes for the ultimate weather thrill.",
+    "dangerScore": 9,
+    "image": "https://images.squarespace-cdn.com/content/v1/58e7ecf117bffcdc602285dc/1495043860225-1T13PG93EMBMKIL798RX/Tempest+Tours"
+  },
+  {
+    "title": "Nuclear Ghost Town Exploration",
+    "description": "Explore abandoned towns near nuclear disaster zones with lingering radiation risks.",
+    "dangerScore": 8,
+    "image": "https://www.urbex.nl/site/wp-content/uploads/2016/01/pripyat-chernobyl-03.jpg"
   }
 ]
