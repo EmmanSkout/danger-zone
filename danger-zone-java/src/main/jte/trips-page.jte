@@ -26,10 +26,12 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 @for(Trip trip : trips)
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden"
+                         onclick="location.href='/trip/${trip.getId()}';"
+                         style="cursor: pointer;"
+                    >
                         <!-- Card Body -->
                         <div class="p-4">
-                            <a href="/trip/${trip.getId()}" class="bg-gray-200 text-gray-800 px-4 py-2">Back to Trips</a>
                             <!-- Title -->
                             <h2 class="text-2xl font-bold text-gray-800">${trip.getTitle()}</h2>
 
