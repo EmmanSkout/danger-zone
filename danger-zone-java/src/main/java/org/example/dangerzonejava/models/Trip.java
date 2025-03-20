@@ -1,6 +1,9 @@
 package org.example.dangerzonejava.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+
+@Data
 
 @JsonIgnoreProperties(ignoreUnknown = true) // Ignores any extra fields in JSON
 public class Trip {
