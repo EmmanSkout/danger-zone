@@ -20,7 +20,8 @@ public class MainController {
     }
 
     @GetMapping("/trip/{id}")
-    public String detailsPage(Model model, @PathVariable String id){
+    public String detailsPage(Model model, @PathVariable String id) {
+        model.addAttribute("trip", tripsService.getTrip(id));
         return "trip-details";
     }
 

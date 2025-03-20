@@ -30,4 +30,11 @@ public class TripsService {
     public List<Trip> getTrips() {
         return trips;
     }
+
+    public Trip getTrip(String id) {
+        return trips.stream()
+                .filter(trip -> trip.getId().equals(id))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Invalid trip ID"));
+    }
 }
