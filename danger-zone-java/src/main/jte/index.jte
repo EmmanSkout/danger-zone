@@ -11,40 +11,36 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>Danger Zone - Extreme Trips</title>
 </head>
 <body>
     <div class="m-3">
 
         <div class="flex flex-wrap pb-3">
             <img class="mr-3" src="danger-icon.svg" width="22" height="22" alt="Example Image">
-            <span class="text-3xl font-bold">Danger Zone App</span>
+            <span class="text-3xl font-bold">Danger Zone - Extreme Trips</span>
         </div>
 
         <!-- Navigation Bar -->
         @template.navigation()
 
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                @for(Trip trip : trips)
-                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <!-- Card Body -->
-                        <div class="p-4">
-                            <!-- Title -->
-                            <h2 class="text-2xl font-bold text-gray-800">${trip.getTitle()}</h2>
-
-                            <img src="${trip.getImage()}" alt="Trip Image" class="w-full h-48 object-cover rounded-md mt-2">
-
-                            <!-- Description -->
-                            <p class="text-gray-600 mt-2">${trip.getDescription()}</p>
-
-                            <!-- Danger Score -->
-                            <p class="mt-4 text-lg font-semibold text-red-600">Danger Score: <span class="text-green-600">${trip.getDangerScore()}</span></p>
-                        </div>
-                    </div>
-                @endfor
+        <div class="flex items-center justify-center min-h-screen">
+            <div class="text-center bg-black fade-in max-w-lg p-6 border border-red-600 rounded-lg shadow-lg">
+                <img src="https://cdn.vectorstock.com/i/1000v/19/21/danger-zone-grunge-background-vector-11861921.jpg"
+                     alt="Danger Zone"
+                     class="w-full rounded-lg mb-4">
+                <h1 class="text-3xl font-bold text-red-500 mb-2">
+                    Welcome to the Danger Zone
+                </h1>
+                <p class="text-gray-300 mb-4">
+                    Welcome to <b>Danger Zone</b>, the ultimate destination for thrill-seekers.
+                    Here, you can book <b>the most extreme, heart-pounding, and dangerous trips</b>—adventures so intense that <b>your life is on the line</b>.
+                    Whether it's skydiving into active volcanoes, cave diving into the abyss, or cycling Bolivia’s Death Road,
+                    this is where the <b>fearless</b> come to play.
+                </p>
             </div>
         </div>
     </div>
+
 </body>
 </html>

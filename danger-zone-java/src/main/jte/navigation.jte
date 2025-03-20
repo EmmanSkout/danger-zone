@@ -1,4 +1,4 @@
-<nav class="bg-red-600 p-4 mb-2">
+<nav class="bg-red-600 p-4 mb-1">
     <div class="mx-auto flex items-center justify-between">
         <!-- Nav Links - Align to the left -->
         <ul class="flex space-x-8">
